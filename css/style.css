@@ -1,0 +1,103 @@
+/* Have the whole body use Arial and a black background */
+body {
+	background-color: black;
+	font-family: Arial;
+}
+/* Have the header make room for the nav bar. */
+header {
+	float: left;
+	width: 30%;
+}
+
+header img {
+	width: inherit;
+	padding-bottom: 1em;
+}
+
+/* Style rules for navigation area */
+nav {
+	width: 50%;
+	float: right;
+	padding-top: .5em;
+	background-color: black;
+}
+
+nav ul {
+	list-style: none;
+	padding-right: 2em;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	font-weight: bolder;
+}
+/* When a nav link is hovered over */
+nav li a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+/* When a nav link is clicked on */
+nav li a:active {
+	color: yellow;
+	text-decoration: none;
+}
+/* Main content should use a white background and some padding */
+main {
+	background-color: white;
+	clear: left;
+	padding: 1em;
+}
+/* A quick and dirty method to making a clean showcase */
+.featured-games table {
+	width: 100%;
+	display: block;
+	border-spacing: 1em;
+}
+
+.featured-games table td {
+	width: 50%;
+}
+
+.featured-games img {
+	width: 100%;
+}
+
+
+/* Button CSS here. It'll only apply to buttons in the feature games div class */
+/* CREDIT OF SNIPPET: https://www.w3schools.com/csS/css3_buttons.asp */
+.featured-games button {
+	background-color: green;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+/* If a button is hovered */
+.featured-games button:hover {
+	background-color: darkolivegreen;
+}
+/* If a button is clicked*/
+.featured-games button:active {
+	background-color: darkgreen;
+}
+
+.footer {
+	color: white;
+	font-size: 8px;	
+	background-color: black;
+}
